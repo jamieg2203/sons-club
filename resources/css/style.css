@@ -1,0 +1,125 @@
+body, html {
+    margin: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Staatliches", sans-serif;
+    font-size: 16px;
+    background-image: url(../images/main-banner2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+header {
+    max-height: 200px;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 2px 2px white;
+}
+
+.header-container {
+    margin: 0 auto;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 4fr 1.5fr;
+    grid-template-rows: 12rem;
+    grid-template-areas: "logo empty header-nav join";
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+#logo {
+    max-height: 180px;
+    width: auto;
+}
+
+.header-nav ul li {
+    color:white;
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+    font-size: 1.8rem;
+}
+
+.join-us {
+    border: 1px solid white;
+    background-color: #ac3325;
+    color: white;
+    border-radius: 15px;
+    height: 4rem;
+    width: 9rem;
+    margin: auto;
+    text-align: center;
+    line-height: 3.8rem;
+    font-size: 1.8rem;
+    cursor:pointer;
+    box-shadow: 0 0 2px 1px grey;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner {
+    margin: 20px auto;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.members-title {
+    color: white;
+    margin: 2rem auto;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.name {
+    color: white;
+    margin: 0.5rem auto;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.quote {
+    color: white;
+    margin: 0.5rem auto;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.members-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.member-container {
+    border: white 1px solid;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color:rgba(0, 0, 0, 0.8);;
+}
+
+.member-container img {
+    text-align: center;
+    width: auto;
+    height: 400px;
+    padding-bottom: 2rem;
+}
