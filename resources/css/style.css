@@ -8,6 +8,8 @@ body, html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
+    color: white;
+    letter-spacing: 0.2rem;
 }
 
 header {
@@ -79,7 +81,7 @@ a:hover {
     height: auto;
 }
 
-.members-title {
+.title {
     color: white;
     margin: 2rem auto;
     text-align: center;
@@ -103,23 +105,66 @@ a:hover {
     font-style: italic;
 }
 
-.members-flex {
+.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.member-container {
+.flex-container {
     border: white 1px solid;
     width: 25%;
     text-align: center;
     margin-bottom: 2rem;
     background-color:rgba(0, 0, 0, 0.8);;
+
 }
 
-.member-container img {
+.flex-container img {
     text-align: center;
     width: auto;
     height: 400px;
     padding-bottom: 2rem;
+}
+
+.product-container {
+    border: white 1px solid;
+    width: 25%;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+
+.product-container img {
+    text-align: center;
+    width: auto;
+    height: 400px;
+    padding-top: 2rem;
+}
+
+.price {
+    color: #ac3325;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.product-title {
+    color: white;
+    margin: 0.5rem auto;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+}
+
+#jaxt-img {
+    width: 350px;
+    height: auto
+}
+
+footer {
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.9);;
+    box-shadow: 1rem 0 1px 0 white;
 }
