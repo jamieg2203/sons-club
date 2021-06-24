@@ -68,6 +68,10 @@ a:hover {
     box-shadow: 0 0 2px 1px grey;
 }
 
+.join-us:hover {
+    background-color: #691d15;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
